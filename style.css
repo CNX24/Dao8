@@ -1,0 +1,160 @@
+*{background-color: #F1EFEC ;} 
+@media(max-width: 600px){ 
+  .wrapper-main{
+    width: 100% 
+  }
+}
+
+@media(min-width: 601px){ 
+  .wrapper-main{
+    width: 100% 
+  }
+}
+/* major break pt overall layout will change chage styles to ur ref*/ 
+
+
+
+.wrapper-main{
+
+  width: 100%  
+  padding: 100px 
+}
+
+.Brand{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+
+}
+.landing {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;  
+    transform: scale(0.9);
+  }
+
+
+.contact-button:hover {
+    background-color:#DDA853;
+  }
+  .contact-button {
+    background-color: #123458; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+
+  
+.value-button:hover{
+    background-color: #E83F25;
+}
+
+.value-button{
+    background-color: #123458; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+ 
+
+ 
+  .MainPage-button{
+    background-color: #123458; 
+    color: white; 
+    border: 2px solid black;;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  
+  }
+  .MainPage-button:hover{
+    background-color: #74512D
+ }
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    gap: 20px;                /* space between buttons */
+    margin-top: 30px;         /* optional spacing from top */
+    flex-wrap: wrap;          /* wraps nicely on small screens */
+
+    
+  }
+  
+
+  .container{
+  
+  
+  }
+
+  .submit{
+
+        background-color: #b9936c; 
+        color: black; 
+        border: 2px solid black;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+  }
+
+.submit:hover{
+    background-color: #7d5730;
+    color: white
+}
+    
+  
+
+.Schedulemeeting{
+    background-color: #dac292; 
+    color: black; 
+    border: 2px solid black;;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    
+}
+.Schedulemeeting:hover{
+    background-color: grey;
+    color: white
+}
+
+.linkedin-button{
+    background-color: #e6e2d3; 
+        color: black; 
+        border: 2px solid black;;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    
+}
+.linkedin-button:hover{
+    background-color: #0077b5;
+    color: white
+}
+
+.textbox {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+
+  .aboutphoto{
+  
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;  
+    transform: scale(0.9);
+  }
